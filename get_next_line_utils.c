@@ -39,8 +39,8 @@ char	*gnl_strjoin(char *s1, char *s2)
 		free(s1);
 		return (NULL);
 	}
-	ft_memcpy(str, s1, l1);
-	ft_memcpy(str + l1, s2, l2);
+	gnl_memcpy(str, s1, l1);
+	gnl_memcpy(str + l1, s2, l2);
 	str[l1 + l2] = '\0';
 	free(s1);
 	return (str);
