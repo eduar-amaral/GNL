@@ -23,7 +23,7 @@
 char	*get_next_line(int fd);
 size_t	gnl_strlen(const char *str);
 char	*gnl_strjoin(char *s1, char *s2);
-char	*gnl_memcpy(void *dst, void *src, size_t len);
+void	*gnl_memcpy(void *dst, void *src, size_t len);
 int		clear_n_check(char *buffer);
 
 #endif
