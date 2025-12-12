@@ -6,7 +6,7 @@
 /*   By: eamaral- <eamaral-student.42lisboa.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/12 14:27:56 by eamaral-          #+#    #+#             */
-/*   Updated: 2025/12/12 21:38:12 by eamaral-         ###   ########.fr       */
+/*   Updated: 2025/12/12 21:52:37 by eamaral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 #  define BUFFER_SIZE 10
 # endif
 
+char	*get_next_line(int fd);
 size_t	gnl_strlen(const char *str);
 char	*gnl_strjoin(char *s1, char *s2);
 char	*gnl_memcpy(void *dst, void *src, size_t len);
