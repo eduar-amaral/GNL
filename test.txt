@@ -1,2 +1,7 @@
-Hello world!
-this is a test...
+First line
+Second line with more text to test buffer handling
+
+Line after empty line
+Very long line to test BUFFER_SIZE handling:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Short
+Last line without \n at the end
