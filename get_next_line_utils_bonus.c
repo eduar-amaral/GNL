@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: eamaral- <eamaral-@student.42lisboa.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/12 14:27:42 by eamaral-          #+#    #+#             */
-/*   Updated: 2025/12/13 15:20:22 by eamaral-         ###   ########.fr       */
+/*   Created: 2025/12/13 15:33:40 by eamaral-          #+#    #+#             */
+/*   Updated: 2025/12/13 15:33:54 by eamaral-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	gnl_strlen(const char *str)
 {
